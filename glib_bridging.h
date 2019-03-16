@@ -227,6 +227,8 @@ struct _GDtlsServerConnection {};
 #include <gio/gnetworking.h>
 #if GLIB_MAJOR_VERSION == 2 && GLIB_MINOR_VERSION < 60
 #include <gio/gdesktopappinfo.h>
+#else
+#include <gio/gioenums.h>
 #endif
 #include <gio/gfiledescriptorbased.h>
 #include <gio/gunixconnection.h>
