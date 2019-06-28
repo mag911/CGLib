@@ -124,6 +124,8 @@ struct _GNetworkAddressPrivate {};
 struct _GNetworkMonitor {};
 struct _GNetworkServicePrivate {};
 struct _GNotification {};
+struct _GOsxAppInfo {};
+struct _GOsxAppInfoClass {};
 struct _GOutputStreamPrivate {};
 struct _GPermissionPrivate {};
 struct _GPollableInputStream {};
