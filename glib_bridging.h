@@ -231,6 +231,9 @@ struct _GDtlsServerConnection {};
 #include <gio/gdesktopappinfo.h>
 #else
 #include <gio/gioenums.h>
+# ifdef __APPLE__
+#include <gio/gosxappinfo.h>
+# endif
 #endif
 #include <gio/gfiledescriptorbased.h>
 #include <gio/gunixconnection.h>
